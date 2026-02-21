@@ -87,7 +87,7 @@ This folder holds reusable documentation that applies across the website builds 
 - `analytics-seo-notes.md`  
   Notes on analytics reporting, baseline KPIs, and SEO hygiene (indexing, metadata, performance checks).
 
-## What NOT to store here
+## What was anonymised:
 - passwords, API keys, SMTP credentials
 - payment wallet numbers, private details, secret tokens
 - full database exports that contain real customer data
