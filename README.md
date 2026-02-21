@@ -1,93 +1,104 @@
-# Website Builds Portfolio (WordPress • Booking • Forms • Analytics)
+# WordPress Websites Portfolio (nagmaenfield.co.uk • richchotel.com)
 
-A structured portfolio of two WordPress website builds, focused on:
-- clean site structure and page management
-- booking / enquiry workflows
-- plugin integrations (forms, appointments, memberships, analytics)
-- practical reporting using built-in dashboards and analytics summaries
-
-This repository keeps **screenshots and supporting documentation** organised per website for easy review.
+A portfolio repository documenting website builds and configuration work across two WordPress sites.  
+This repo focuses on **setup evidence, plugin integrations, and operational workflows** captured as screenshots for quick review.
 
 ---
 
 ## Contents
-- [Repo layout](#repo-layout)
-- [Sites](#sites)
-  - [nagmaenfield.co.uk](#nagmaenfieldcouk)
-  - [richchotel.com](#richchotelcom)
-- [Common build themes](#common-build-themes)
+- [Repo structure](#repo-structure)
+- [Site 1: richchotel.com](#site-1-richchotelcom)
+- [Site 2: nagmaenfield.co.uk](#site-2-nagmaenfieldcouk)
 - [Notes](#notes)
 
 ---
 
-## Repo layout
-
+## Repo structure
 ```text
-docs/                         → shared notes/checklists (security, SEO, analytics)
-nagmaenfield.co.uk/           → site-specific README + assets
-richchotel.com/               → site-specific README + assets
+assets/
+  richchotel.com/        # booking system + forms + analytics screenshots
+  nagmaenfield.co.uk/    # pages + appointments + membership + form workflows
 ```
 ---
 
-Each site folder contains:
+Site 1: richchotel.com
 
-README.md → full overview, features, integrations, screenshot index
+Folder: rich comfort hotel/
 
-assets/ → screenshot evidence (filenames preserved)
+Docs: rich comfort hotel/README.md
 
-assets/docs/ → optional space for exports/config notes (if added)
+<details> <summary><b>Booking & reservation configuration (VikBooking)</b></summary>
 
-Sites
-nagmaenfield.co.uk
+Screenshots:
 
-Focus: business website management, page structure, plugin ecosystem, appointment scheduling, membership roles, and recruitment/application workflow.
+amenities_setup_richchotel.com.jpeg
 
-Open: nagmaenfield.co.uk/README.md
+bedroom_setup_richchotel.com.jpeg
 
-richchotel.com
+bedroom_pricing_setup_richchotel.com.jpeg
 
-Focus: hotel booking workflow (room setup → pricing → checkout rules), payment configuration, customer email integration, and website analytics reporting.
+main_booking-form_setting&integration_richchotel.com.jpeg
 
-Open: richchotel.com/README.md
+booking-form_formatting_richchotel.com.jpeg
 
-Common build themes
+vikbooking_integration_richchotel.com.jpeg
 
-Across both sites, the work demonstrates:
+vikbooking_payments_integration_richchotel.com.jpeg
 
-Information architecture: clear page structure + consistent navigation
+billing-info_setup_richchotel.com.jpeg
 
-Operational workflows: bookings/appointments, enquiries, and user actions
+currency&tax_setup_richchotel.com.jpeg
 
-Plugin governance: selecting, installing, and managing plugins for specific outcomes
+</details> <details> <summary><b>Forms & email workflow</b></summary>
 
-Analytics & performance monitoring: traffic/engagement reporting and site insight tracking
+Screenshots:
 
-Delivery documentation: screenshot evidence + structured write-ups for reproducibility
+wp_forms_integration_richchotel.com.jpeg
 
+customer_email_integration_richchotel.com.PNG
+
+</details> <details> <summary><b>Traffic & engagement reporting</b></summary>
+
+Screenshots:
+
+website_engagement_report_from_start_richchotel.com.jpeg
+
+website_visits_report_richchotel.com.jpeg
+
+</details>
+Site 2: nagmaenfield.co.uk
+
+Folder: assets/nagmaenfield.co.uk/
+
+Docs: assets/nagmaenfield.co.uk/README.md
+
+<details> <summary><b>Pages & site build evidence</b></summary>
+
+Screenshots:
+
+creating_website_pages_nagmaenfield.co.uk.jpeg
+
+installed_plugins_nagmaenfield.co.uk.jpeg
+
+</details> <details> <summary><b>Appointments & scheduling workflow</b></summary>
+
+Screenshots:
+
+appointment_plugins_integration_nagmaenfield.co.uk.jpeg
+
+past_scheduled_appointments_backend_nagmaenfield.co.uk.jpeg
+
+</details> <details> <summary><b>Membership & application flow</b></summary>
+
+Screenshots:
+
+membership_roles_setup_nagmaenfield.co.uk.jpeg
+
+application-form_preview_nagmaenfield.co.uk.jpeg
+
+</details>
 Notes
 
-Screenshots are stored with original filenames to keep traceability.
+Screenshots are stored with original filenames (no renaming) to keep traceability consistent.
 
-No credentials, keys, or sensitive settings should be added to this repo.
-
-Where exports are included, place them inside each site’s assets/docs/ folder.
-
-
----
-
-```md
-# Shared Documentation
-
-This folder holds reusable documentation that applies across the website builds in this repository.
-
-## Recommended files
-- `security-maintenance-checklist.md`  
-  Practical checklist for updates, backups, plugin review, access control, and monitoring.
-
-- `analytics-seo-notes.md`  
-  Notes on analytics reporting, baseline KPIs, and SEO hygiene (indexing, metadata, performance checks).
-
-## What was anonymised:
-- passwords, API keys, SMTP credentials
-- payment wallet numbers, private details, secret tokens
-- full database exports that contain real customer data
+If any screenshot contains sensitive information, redact it before upload (tokens, emails, phone numbers, customer details, etc.).
