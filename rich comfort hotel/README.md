@@ -1,4 +1,4 @@
-# richchotel.com — Website Build Overview
+# richchotel.com - Website Build Overview
 
 This folder documents the build and operational setup of **richchotel.com**.
 The focus is on a complete booking workflow:
