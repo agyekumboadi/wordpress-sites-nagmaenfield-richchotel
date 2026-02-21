@@ -1,4 +1,4 @@
-# richchotel.com — Configuration & Integration Evidence
+# richchotel.com - Configuration & Integration Evidence
 
 This folder contains screenshot evidence of key setup areas and integrations.  
 Filenames are preserved exactly as uploaded.
