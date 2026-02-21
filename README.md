@@ -75,8 +75,6 @@ Where exports are included, place them inside each site’s assets/docs/ folder.
 
 ---
 
-# `rich comfort hotel/README.md` (copy/paste)
-
 ```md
 # Shared Documentation
 
@@ -93,4 +91,3 @@ This folder holds reusable documentation that applies across the website builds 
 - passwords, API keys, SMTP credentials
 - payment wallet numbers, private details, secret tokens
 - full database exports that contain real customer data
-```
